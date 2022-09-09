@@ -86,7 +86,7 @@ class VOCSegmentation(data.Dataset):
                  root,
                  year='2012',
                  image_set='train',
-                 download=False,
+                 download=True,
                  transform=None):
 
         is_aug=False
