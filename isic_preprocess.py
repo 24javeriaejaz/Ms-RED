@@ -9,7 +9,7 @@ import numpy as np
 from skimage import io
 from PIL import Image
 
-root_dir = '/data/ddw_data/skin-image/ISIC_2018'                # change it in your saved original data path
+root_dir = '/data/ddw/skin-image/ISIC_2018'                # change it in your saved original data path
 save_dir = './data/ISIC2018_npy_all_224_320'
 
 
